@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulari</title>
+</head>
+<body>
+    <form action="registre.html"> 
+        <div>  <!--Part del nom i dels llinatges-->
+            <label for="name">Nom:</label>
+            <input type="text" name="name" id="">
+            <label for="name">Llinatges:</label>
+            <input type="text" name="name" id="">
+        </div>
+        <p>Sexe: <!--Elegir el sexe-->
+        <input name="option" type="radio" id="hda" value="h"> Home
+        <input name="option" type="radio" id="hda" value="d"> Dona
+        <input name="option" type="radio" id="hda" value="a"> Altre
+        </p>
+        <!--Posar el correu electronic-->
+        <p>
+            Email: <input type="email" name="direccionemail" placeholder="Ej.: usuari@servidor.com" 
+        </p>
+        <p> <!--Posar contrasenya-->
+          Constrasenya:  <input type="password" name="pass" pattern="[5-10]">
+        </p>
+        <!--Posar data de naixement-->
+       Data de naixement: <input type="date" name="fecha">
+        <div>
+            <label for="checkbox">Etic d'acord amb els termes i condicions</label>
+            <input type="checkbox" name="" id="checkbox">
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
