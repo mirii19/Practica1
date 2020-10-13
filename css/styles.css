@@ -1,3 +1,8 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
 /* dona al <body> element un color de fons de #bdc3c7*/
 body{
     background-color: #bdc3c7;
@@ -5,37 +10,59 @@ body{
 }
 
 /* fes que els <h1> siguin de color #9b59b6*/
-
+h1{
+    color: #ecc1fd;
+}
 
 /* fes que els <h2> siguin de color orange */
+h2{
+    color: orange;
+}
 
-
-/* fes que els <li> siguin d'un blau hexadecimal
-
+/* fes que els <li> siguin d'un blau hexadecimal*/
+li{
+    color: #0040ff;
+}
 
 /*canvia el color de fons de cada paràgraf a groc*/
+p{
+    background-color: yellow;
+}
 
+/*fes que tots els inputs tinguin un border de 3px vermell*/
+input{
+    border: 3px solid red;
+}
 
-2/*fes que tots els inputs tinguin un border de 3px vermell*/
-
-
-/* fes que tot el que té class 'hello' sigui de fons blanc/
-
+/* fes que tot el que té class 'hello' sigui de fons blanc*/
+.hello{
+    background-color: white;
+}
 
 /* fes que l'elemnt amb id  'special' tingui un border 2px solid blau selecciona el teu propi rgb blau*/
-
+#special{
+    border: 2px solid rgb(0, 100, 200);
+}
 
 /*Fes que tots els <p>'s que estn dins un div tingin una font de 25px (font-size: 25px)*/
-
+div p{
+    font-size: 25px;
+}
 
 /*Fes que només els inputs de type text tenguin un fons gris*/
-
+input[type="text"]{
+    background-color: grey;
+}
 
 /* Fes que els <p>'s dins el 3r <div> tinguin fons rosa*/
-
+div:nth-of-type(3) p{
+    background-color: pink;
+}
 
 /* Fes que el 2n <p> dins el  3r  <div> tingui un border de 5px blanc*/
-
+div:nth-of-type(3) p:nth-of-type(2){
+    border:5px solid white;
+}
 
 /* Fen que l'element <em> del 3r <div> sigui blanc amb una font de 20px (font-size:20px)*/
 
