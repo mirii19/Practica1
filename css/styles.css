@@ -80,7 +80,7 @@ label{
 }
 
 /*Fes que la primera lletra de l'element amb id 'special' sigui verda i amb font de 100px font size(font-size: 100)*/
-#special::first-letter{
+#special:first-letter{
     color: green;
     font-size: 100px;
 }
