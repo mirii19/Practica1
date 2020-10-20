@@ -1,0 +1,26 @@
+#hola{
+    background-color: yellow;
+    color: black;
+}
+
+#adeu{
+    background-color: blue;
+}
+
+#tercer{
+    background-color: brown;
+}
+
+#quarto{
+    background-color: chocolate;
+}
+
+p{
+    display: block;
+    width: 22%;
+    text-align: center;
+    border: 2px solid black;
+    padding: 4px;
+    margin: 1%;
+    float: left;
+}
