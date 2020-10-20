@@ -32,3 +32,15 @@ td{
 .tot{
     border: 1px solid gray;
 }
+
+@media screen and (min-width:1400px) {
+    #warp {
+       -webkit-transform:scale(1.2);
+       -webkit-transform-origin:50% 0%;
+     transform:scale(1.2);
+     transform-origin:50% 0%;
+     }
+   }
+
+
+
