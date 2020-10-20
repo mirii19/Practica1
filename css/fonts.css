@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*tipus de font con font-family*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*font-size*/
+
+body{
+    font-size: 15px;
+}
+
+h1{
+    font-size: 2em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+
+p{
+    font-size: 1.5em;
+}
+
+span{
+    font-size: 2em;
+}
+/*font-weight*/
+
+span{
+    font-weight: bold;
+}
+
+/*line-height*/
+p{
+    line-height: 1.5;
+}
+/*text-align*/
+h1{
+    text-align: right;
+}
+
+p{
+    text-align: center;
+}
+
+/*text-decoration*/
+
+h1{
+    text-decoration: underline;
+}
+
+p{
+    text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
